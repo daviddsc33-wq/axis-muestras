@@ -1,0 +1,201 @@
+<!doctype html>
+<!-- Plantilla base de webs de muestra para oficios (muestras.py, 28/10/2026). La rellena el script sin IA.
+     Variables: Cerrajería OSKAR Cerrajería cerrajero Cantabria 946 67 05 51 946670551 #2b8a3e #226f32 <div class="servicio"><span class="num">01</span><h3>Apertura de puertas</h3><p>Sin romper la puerta siempre que se pueda.</p></div><div class="servicio"><span class="num">02</span><h3>Cambio de cerraduras</h3><p>Cerraduras y bombines de seguridad.</p></div><div class="servicio"><span class="num">03</span><h3>Puertas blindadas</h3><p>Instalación y refuerzo.</p></div><div class="servicio"><span class="num">04</span><h3>Copias y amaestramientos</h3><p>Llaves para comunidades y negocios.</p></div> <div class="nota"><span class="est">★★★★★</span> 4,7 en Google · 76 reseñas</div>
+     {estrellas} <div><b>4,7★</b> 76 reseñas en Google</div> Cerrajería OSKAR<span>.</span> img/negocio.jpg <p class="pie">Foto de la web de Cerrajería OSKAR</p> img/1.jpg img/2.jpg img/3.jpg img/4.jpg 
+      mailto:oskar@oskarcerrajeria.com?subject=Presupuesto&body= 2026. Fotos del sector: plantillas/webs/img/<sector>/ (Pexels, uso libre).
+     Nada de cifras ni promesas que el negocio no haya dicho. -->
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Cerrajería OSKAR · Cerrajería en Cantabria</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--c:#2b8a3e;--co:#226f32;--tx:#14161b;--sv:#5b6070;--fondo:#f6f5f2;--blanco:#fff;--borde:#e4e2dc}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Work Sans",system-ui,sans-serif;color:var(--tx);background:var(--fondo);line-height:1.6;padding-bottom:84px}
+h1,h2,h3{font-family:Archivo,system-ui,sans-serif;line-height:1.08;letter-spacing:-.02em}
+a{color:inherit}
+img{display:block;max-width:100%}
+.env{max-width:1120px;margin:0 auto;padding:0 20px}
+.aviso{background:#000;color:#cfd2da;font-size:12.5px;text-align:center;padding:10px 16px;position:relative;z-index:3}
+.aviso b{color:#fff}
+/* Cabecera */
+header{position:sticky;top:0;z-index:2;background:rgba(246,245,242,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--borde)}
+header .env{display:flex;justify-content:space-between;align-items:center;height:68px;gap:16px}
+.marca{font-family:Archivo;font-weight:800;font-size:19px;text-decoration:none;display:flex;align-items:center;gap:10px}
+.marca img{height:40px;width:auto;max-width:150px;object-fit:contain}
+.marca span{color:var(--c)}
+nav{display:none;gap:26px;font-size:15px}
+nav a{text-decoration:none;color:var(--sv)}
+nav a:hover{color:var(--tx)}
+.llamar-top{display:none;text-decoration:none;font-weight:600;background:var(--tx);color:#fff;padding:10px 18px;border-radius:999px;font-size:15px}
+/* Portada */
+.hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;color:#fff;background:var(--tx) center/cover no-repeat;background-image:url("img/1.jpg")}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,12,16,.25) 0%,rgba(10,12,16,.55) 45%,rgba(10,12,16,.9) 100%)}
+.hero .env{position:relative;padding-bottom:64px;padding-top:120px;width:100%}
+.nota{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);backdrop-filter:blur(6px);border-radius:999px;padding:9px 16px 9px 14px;font-size:14px;margin-bottom:22px}
+.nota .est{color:#ffc53d;letter-spacing:1px}
+.hero h1{font-size:clamp(40px,8.5vw,84px);font-weight:800;max-width:13ch}
+.hero h1 em{font-style:normal;color:var(--c);filter:brightness(1.35)}
+.hero p{font-size:19px;color:#dfe2e8;max-width:44ch;margin:20px 0 30px}
+.botones{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font-weight:600;padding:15px 24px;border-radius:14px;font-size:17px;border:0;cursor:pointer;font-family:inherit;transition:transform .15s ease,background .15s ease}
+.btn:active{transform:scale(.97)}
+.btn-p{background:var(--c);color:#fff}
+.btn-p:hover{background:var(--co)}
+.btn-s{background:var(--blanco);color:var(--tx);border:1px solid var(--borde)}
+.btn-v{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.3)}
+/* Franja de confianza */
+.confianza{background:var(--blanco);border-bottom:1px solid var(--borde)}
+.confianza .env{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:4px 24px;padding-top:22px;padding-bottom:22px}
+.confianza div{display:flex;align-items:center;gap:12px;font-size:15px;padding:6px 0}
+.confianza b{font-family:Archivo;font-size:22px;color:var(--c)}
+section{padding:80px 0}
+.antetitulo{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--c);margin-bottom:12px}
+h2{font-size:clamp(30px,5vw,46px);margin-bottom:34px;max-width:20ch}
+/* Servicios */
+.servicios{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.servicio{background:var(--blanco);border:1px solid var(--borde);border-radius:20px;padding:26px;transition:transform .2s ease,box-shadow .2s ease}
+.servicio:hover{transform:translateY(-3px);box-shadow:0 14px 34px -18px rgba(20,22,27,.35)}
+.servicio h3{font-size:21px;margin-bottom:8px}
+.servicio p{color:var(--sv);font-size:15.5px}
+.num{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:12px;background:color-mix(in srgb,var(--c) 12%,transparent);font-family:Archivo;font-weight:800;color:var(--c);margin-bottom:18px}
+/* Así trabajamos */
+.dos{display:grid;gap:40px;align-items:center}
+.foto{border-radius:24px;overflow:hidden;aspect-ratio:4/3;background:#ddd}
+.foto img{width:100%;height:100%;object-fit:cover}
+.pie{font-size:13px;color:var(--sv);margin-top:10px}
+.pasos{display:grid;gap:22px;margin-top:8px;counter-reset:p}
+.paso{display:grid;grid-template-columns:44px 1fr;gap:16px}
+.paso::before{counter-increment:p;content:counter(p);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--tx);color:#fff;font-family:Archivo;font-weight:800}
+.paso h3{font-size:19px;margin:9px 0 4px}
+.paso p{color:var(--sv);font-size:15.5px}
+/* Galería */
+.oscuro{background:var(--tx);color:#fff}
+.oscuro .antetitulo{color:#fff;opacity:.7}
+.galeria{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+.galeria img{width:100%;height:100%;object-fit:cover;border-radius:18px;aspect-ratio:1}
+.galeria img:first-child{grid-column:span 2;aspect-ratio:16/9}
+/* Presupuesto */
+.contacto{display:grid;gap:40px}
+.contacto p{color:var(--sv);font-size:17px;margin-top:-18px;max-width:36ch}
+.datos{margin-top:26px;display:grid;gap:10px;font-size:17px}
+.datos a{font-weight:600;text-decoration:none}
+form{background:var(--blanco);border:1px solid var(--borde);border-radius:24px;padding:28px;display:grid;gap:14px;box-shadow:0 20px 50px -30px rgba(20,22,27,.3)}
+label{font-size:14px;font-weight:500}
+input,textarea{width:100%;font:inherit;padding:13px 14px;border:1px solid var(--borde);border-radius:12px;background:var(--fondo);margin-top:6px}
+input:focus,textarea:focus{outline:2px solid var(--c);outline-offset:1px}
+textarea{min-height:110px;resize:vertical}
+footer{padding:36px 0;color:var(--sv);font-size:14px;border-top:1px solid var(--borde)}
+.barra{position:fixed;left:0;right:0;bottom:0;z-index:2;display:flex;gap:10px;padding:12px 16px;background:rgba(246,245,242,.95);backdrop-filter:blur(8px);border-top:1px solid var(--borde)}
+.barra .btn{flex:1}
+/* Aparición suave al cargar */
+@keyframes sube{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.hero .nota,.hero h1,.hero p,.hero .botones{animation:sube .7s cubic-bezier(.2,.7,.2,1) both}
+.hero h1{animation-delay:.08s}.hero p{animation-delay:.16s}.hero .botones{animation-delay:.24s}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+@media(min-width:820px){
+  nav,.llamar-top{display:flex}.barra{display:none}body{padding-bottom:0}
+  .dos{grid-template-columns:1fr 1fr;gap:64px}.contacto{grid-template-columns:1fr 1.1fr;gap:64px}
+  .galeria{grid-template-columns:2fr 1fr 1fr}.galeria img:first-child{grid-column:auto;grid-row:span 2;aspect-ratio:auto}
+}
+</style>
+</head>
+<body>
+<div class="aviso">Propuesta de diseño preparada por <b>Axis</b> para Cerrajería OSKAR. No es su web oficial.</div>
+<header>
+  <div class="env">
+    <a class="marca" href="#">Cerrajería OSKAR<span>.</span></a>
+    <nav><a href="#servicios">Servicios</a><a href="#trabajo">Cómo trabajamos</a><a href="#presupuesto">Presupuesto</a></nav>
+    <a class="llamar-top" href="tel:946670551">946 67 05 51</a>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="env">
+    <div class="nota"><span class="est">★★★★★</span> 4,7 en Google · 76 reseñas</div>
+    <h1>Tu cerrajero de confianza en <em>Cantabria</em></h1>
+    <p>Cuéntanos qué necesitas y te damos una respuesta clara. Llámanos o escríbenos, sin rodeos.</p>
+    <div class="botones">
+      <a class="btn btn-p" href="tel:946670551">Llamar ahora</a>
+      
+      <a class="btn btn-v" href="#presupuesto">Pedir presupuesto</a>
+    </div>
+  </div>
+</div>
+
+<div class="confianza">
+  <div class="env">
+    <div><b>4,7★</b> 76 reseñas en Google</div>
+    <div><b>✓</b> Presupuesto antes de empezar</div>
+    <div><b>✓</b> En Cantabria y alrededores</div>
+  </div>
+</div>
+
+<section id="servicios">
+  <div class="env">
+    <div class="antetitulo">Cerrajería</div>
+    <h2>Lo que hacemos por ti</h2>
+    <div class="servicios"><div class="servicio"><span class="num">01</span><h3>Apertura de puertas</h3><p>Sin romper la puerta siempre que se pueda.</p></div><div class="servicio"><span class="num">02</span><h3>Cambio de cerraduras</h3><p>Cerraduras y bombines de seguridad.</p></div><div class="servicio"><span class="num">03</span><h3>Puertas blindadas</h3><p>Instalación y refuerzo.</p></div><div class="servicio"><span class="num">04</span><h3>Copias y amaestramientos</h3><p>Llaves para comunidades y negocios.</p></div></div>
+  </div>
+</section>
+
+<section id="trabajo" style="padding-top:0">
+  <div class="env dos">
+    <div>
+      <div class="foto"><img src="img/negocio.jpg" alt="Cerrajería OSKAR" loading="lazy"></div>
+      <p class="pie">Foto de la web de Cerrajería OSKAR</p>
+    </div>
+    <div>
+      <div class="antetitulo">Cómo trabajamos</div>
+      <h2>Sin complicaciones, de principio a fin</h2>
+      <div class="pasos">
+        <div class="paso"><div><h3>Nos cuentas qué pasa</h3><p>Por teléfono, WhatsApp o el formulario.</p></div></div>
+        <div class="paso"><div><h3>Te damos un presupuesto claro</h3><p>Sabes lo que vas a pagar antes de empezar.</p></div></div>
+        <div class="paso"><div><h3>Trabajo hecho y limpio</h3><p>Lo dejamos todo funcionando y recogido.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="oscuro">
+  <div class="env">
+    <div class="antetitulo">Nuestro oficio</div>
+    <h2>Trabajo bien hecho, a la primera</h2>
+    <div class="galeria">
+      <img src="img/2.jpg" alt="" loading="lazy"><img src="img/3.jpg" alt="" loading="lazy"><img src="img/4.jpg" alt="" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section id="presupuesto">
+  <div class="env contacto">
+    <div>
+      <div class="antetitulo">Presupuesto</div>
+      <h2>Cuéntanos qué necesitas</h2>
+      <p>Te respondemos lo antes posible con una idea clara de plazo y precio.</p>
+      <div class="datos"><a href="tel:946670551">☎ 946 67 05 51</a></div>
+    </div>
+    <form onsubmit="event.preventDefault();var f=this;var t='Hola, soy '+f.n.value+'. Necesito: '+f.m.value+' (zona: '+f.z.value+')';window.open('mailto:oskar@oskarcerrajeria.com?subject=Presupuesto&body='+encodeURIComponent(t))">
+      <label>Nombre<input name="n" required></label>
+      <label>Zona o dirección<input name="z" required></label>
+      <label>¿Qué necesitas?<textarea name="m" required></textarea></label>
+      <button class="btn btn-p" type="submit">Enviar</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="env">© 2026 Cerrajería OSKAR · Cantabria · <a href="tel:946670551">946 67 05 51</a><br>Diseño de muestra: Axis · axisagencia.es · Fotos del oficio: Pexels</div>
+</footer>
+
+<div class="barra">
+  <a class="btn btn-p" href="tel:946670551">Llamar</a>
+  
+</div>
+</body>
+</html>
